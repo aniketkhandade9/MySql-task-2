@@ -20,4 +20,8 @@ UPDATE Employees
 SET department = 'Finance'
 WHERE id = 2;
 
+DELETE FROM Employees
+WHERE id = 1;
+
+
 SELECT * FROM Employees;
